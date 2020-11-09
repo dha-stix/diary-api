@@ -136,6 +136,7 @@ AUTH_USER_MODEL = "users.CustomUser"
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
+    "https://e-diaryapp.netlify.app"
 ]
 
 ALLOWED_HOSTS = ['e-diaryapi.herokuapp.com']
